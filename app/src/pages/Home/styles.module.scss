@@ -1,0 +1,41 @@
+.container {
+  display: flex;
+  justify-content: center;
+
+  .home {
+    padding: 48px 60px;
+    max-width: 1440px;
+    width: 1440px;
+
+    .catsList {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 48px;
+    }
+
+    .loader {
+      display: flex;
+      justify-content: center;
+      padding: 20px 0;
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: center;
+      padding: 40px;
+
+      .loadMoreBtn {
+        padding: 20px;
+        border-radius: 15px;
+        border: none;
+        background-color: #002c5e;
+        color: #fff;
+
+        &:hover {
+          background-color: darken(#002c5e, 10%);
+        }
+      }
+    }
+  }
+}

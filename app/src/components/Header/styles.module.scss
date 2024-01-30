@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.24);
+
+  .header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 62px;
+    max-width: 1440px;
+    width: 1440px;
+
+    a {
+      position: relative;
+      padding: 23px;
+      color: #ffffffb2;
+      text-decoration: none;
+      font-size: 14px;
+      line-height: 18px;
+
+      &:hover {
+        color: darken(#fff, 20%);
+      }
+    }
+
+    .active {
+      color: #ffffff;
+      background-color: #1e88e5;
+    }
+  }
+}

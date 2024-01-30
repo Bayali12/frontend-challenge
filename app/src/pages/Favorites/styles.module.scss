@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: center;
+
+  .favoriteCats {
+    padding: 48px 60px;
+    max-width: 1440px;
+    width: 1440px;
+
+    .catsList {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 48px;
+    }
+  }
+}
